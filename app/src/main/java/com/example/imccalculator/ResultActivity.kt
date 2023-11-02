@@ -27,8 +27,6 @@ class ResultActivity : AppCompatActivity() {
         txtClassification = findViewById(R.id.txt_classification)
         btnReturn = findViewById(R.id.btn_back)
 
-
-        println("Acima --------------------------")
         val weight = bundle?.getDouble("weight")
         val height = bundle?.getDouble("height")
 
