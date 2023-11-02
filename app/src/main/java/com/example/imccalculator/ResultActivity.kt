@@ -38,14 +38,14 @@ class ResultActivity : AppCompatActivity() {
 
             txtResult.text = Constants.IMC_SHOW(String.format("%.2f", result))
 
-            if (result < 18.5) {
-                txtClassification.text = Constants.LOW
+            txtClassification.text = if (result < 18.5) {
+                Constants.LOW
             } else if (result < 24.9) {
-                txtClassification.text = Constants.NORMAL
+                Constants.NORMAL
             } else if (result < 29.9) {
-                txtClassification.text = Constants.OVERWEIGHT
+                Constants.OVERWEIGHT
             } else {
-                txtClassification.text = Constants.OBISITY
+                Constants.OBISITY
             }
         }
 
