@@ -7,12 +7,12 @@ import android.widget.TextView
 import com.example.imccalculator.resources.Constants
 
 class ResultActivity : AppCompatActivity() {
-    lateinit var txtShowWeight: TextView
-    lateinit var txtShowHeight: TextView
+    private lateinit var txtShowWeight: TextView
+    private lateinit var txtShowHeight: TextView
 
-    lateinit var txtResult: TextView
-    lateinit var txtClassification: TextView
-    lateinit var btnReturn: Button
+    private lateinit var txtResult: TextView
+    private lateinit var txtClassification: TextView
+    private lateinit var btnReturn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -11,13 +11,13 @@ import com.google.android.material.textfield.TextInputLayout
 import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
-    lateinit var txtInputLayoutWeight: TextInputLayout
-    lateinit var txtInputWeight: TextInputEditText
+    private lateinit var txtInputLayoutWeight: TextInputLayout
+    private lateinit var txtInputWeight: TextInputEditText
 
-    lateinit var txtInputLayoutHeight: TextInputLayout
-    lateinit var txtInputHeight: TextInputEditText
+    private lateinit var txtInputLayoutHeight: TextInputLayout
+    private lateinit var txtInputHeight: TextInputEditText
 
-    lateinit var btnResult: Button
+    private lateinit var btnResult: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
